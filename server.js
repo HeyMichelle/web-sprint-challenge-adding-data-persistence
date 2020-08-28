@@ -12,7 +12,7 @@ server.use(express.json());
 // server.use("/api/tasks", TasksRouter);
 
 server.get("/", (req, res) => {
-	res.send(`<h2>Welcome to DB Sprint Challenge!</h2>`);
+	res.send(`<h2>Welcome to NODE DB Sprint Challenge!</h2>`);
 });
 
 module.exports = server;
