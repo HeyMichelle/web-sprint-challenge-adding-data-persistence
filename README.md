@@ -18,7 +18,7 @@ In this project you will be given a set of requirements and must design a databa
 
 A `project` is what needs to be done. We want to store the following data about a `project`:
 
--   [ ] a unique ID.
+-   [] a unique ID.
 -   [ ] a name. This column is required.
 -   [ ] a description.
 -   [ ] a boolean that indicates if the project has been completed. This column is required, the default value should be `false`.
