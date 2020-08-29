@@ -29,7 +29,6 @@ async function addTasks(task) {
 }
 
 module.exports = {
-	
 	getTasksByProjectID,
 	getTasksById,
     addTasks
