@@ -19,7 +19,7 @@ router.get("/:id", (req, res) => {
 			}
 		})
 		.catch(err => {
-			err, res.status(500).json({ message: "Failed to get task." });
+			err, res.status(500).json({ message: "Failed to get task by id." });
 		});
 });
 
@@ -40,7 +40,7 @@ router.post("/", async (req, res) => {
 	} catch (error) {
 		res.status(500).json({
 			error,
-			errorMessage: "There was an error while saving the task to the database"
+			message: "There was an error while saving the task to the database"
 		});
 	}
 });
