@@ -18,7 +18,7 @@ In this project you will be given a set of requirements and must design a databa
 
 A `project` is what needs to be done. We want to store the following data about a `project`:
 
--   [ ] a unique ID.
+-   [] a unique ID.
 -   [ ] a name. This column is required.
 -   [ ] a description.
 -   [ ] a boolean that indicates if the project has been completed. This column is required, the default value should be `false`.
@@ -60,12 +60,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
--   [ ] Create a forked copy of this project
--   [ ] Add your team lead as collaborator on Github
--   [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
--   [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
--   [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
--   [ ] Push commits: git push origin `<firstName-lastName>`
+-   [x] Create a forked copy of this project
+-   [x] Add your team lead as collaborator on Github
+-   [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+-   [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+-   [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+-   [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
